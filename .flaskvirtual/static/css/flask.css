@@ -1,0 +1,8 @@
+.hoogarden{
+    border-bottom: 1px solid rgba(50, 21, 212, 0.2);
+    position: fixed;
+    right: 2;
+    left: 4;
+    z-index: 1000;
+    transition: all .4s;
+}

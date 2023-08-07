@@ -1,0 +1,583 @@
+
+{% extends 'flask55.html'%}
+{% block title %}
+Formula_zvyka.nvrsk
+{% endblock %}
+
+{% block text %} 
+<body>
+
+    <nav class="navbar navbar-lg navbar-expand-lg navbar-transparant navbar-dark navbar-absolute w-100">
+      <div class="container">
+        <a class="navbar-brand" href="index.html" _msttexthash="990288" _msthash="1">Крепкий.</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" _msthidden="A" _mstaria-label="320099" _msthash="2">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" _msttexthash="630513" _msthash="3">Обзор</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" _msttexthash="984724" _msthash="4"> Страниц </a>
+              <div class="dropdown-menu" _msthidden="3">
+                <a class="dropdown-item" href="pages-landing.html" _msttexthash="92456" _msthidden="1" _msthash="5">Landing</a>
+                <a class="dropdown-item" href="pages-dashboard.html" _msttexthash="131222" _msthidden="1" _msthash="6">Dashboard</a>
+                <a class="dropdown-item" href="pages-general.html" _msttexthash="92651" _msthidden="1" _msthash="7">General</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" _msttexthash="1621815" _msthash="8"> Компоненты </a>
+              <div class="dropdown-menu" _msthidden="2">
+                <a class="dropdown-item" href="components-bootstrap.html" _msttexthash="138918" _msthidden="1" _msthash="9">Bootstrap</a>
+                <a class="dropdown-item" href="components-robust.html" _msttexthash="80223" _msthidden="1" _msthash="10">Robust</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" _msttexthash="1395446" _msthash="11"> Документы </a>
+              <div class="dropdown-menu" _msthidden="5">
+                <a class="dropdown-item" href="getting-started.html" _msttexthash="210470" _msthidden="1" _msthash="12">Introduction</a>
+                <a class="dropdown-item" href="getting-started.html#quick-start" _msttexthash="161551" _msthidden="1" _msthash="13">Quick start</a>
+                <a class="dropdown-item" href="getting-started.html#build-tools" _msttexthash="160836" _msthidden="1" _msthash="14">Build tools</a>
+                <a class="dropdown-item" href="getting-started.html#contents" _msttexthash="117728" _msthidden="1" _msthash="15">Contents</a>
+                <a class="dropdown-item" href="getting-started.html#changelog" _msttexthash="131586" _msthidden="1" _msthash="16">Changelog</a>
+              </div>
+            </li>
+          </ul>
+          <a class="btn btn-outline-white" href="https://themes.getbootstrap.com/product/robust-ui-kit-dashboard-landing/" target="_blank" _msttexthash="2114411" _msthash="17">Купить сейчас</a>
+        </div>
+      </div>
+    </nav>
+  
+    <div class="intro py-8 bg-primary position-relative text-white">
+      <div class="bg-overlay-primary">
+        <img src="img/photos/8.jpg" class="img-fluid img-cover" alt="Надежный набор пользовательского интерфейса" _mstalt="169975" _msthash="18">
+      </div>
+      <div class="intro-content mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 align-self-center">
+              <h1 class="display-4 mb-3" _msttexthash="26592124" _msthash="19">Произведите впечатление на своих клиентов,<br _istranslated="1"> удивите свою команду</h1>
+              <p class="lead mb-4" _msttexthash="113956193" _msthash="20">Robust — это тема премиум-класса, созданная с помощью Bootstrap. Тема полностью настраивается и может использоваться для любого типа приложений.</p>
+            </div><!-- /.col-md-6 -->
+            <div class="col-md-5 ml-auto">
+              <div class="card">
+                <div class="card-body text-dark">
+                  <form>
+                    <div class="form-group">
+                      <label for="email" _msttexthash="7620782" _msthash="21">Отправить по электронной почте</label>
+                      <input type="email" class="form-control" id="email" placeholder="Введите свой адрес электронной почты" _mstplaceholder="263692" _msthash="22">
+                    </div>
+                    <div class="form-group">
+                      <label for="password" _msttexthash="802438" _msthash="23">Пароль</label>
+                      <input type="password" class="form-control" id="password" placeholder="Введите свой пароль" _mstplaceholder="365677" _msthash="24">
+                    <kpm-button style="position: relative !important; z-index: 4 !important;" class="jYwCKXeG1NQk9WXqAtIT kpm_input-field-button kpm_gray-key-icon"><div class="YaUcSL9pZJkawAbwG9cF" style="position: absolute !important; width: 32px !important; height: 24px !important; top: -31px !important; left: 293px !important;"><svg class="J6MDbAOqISHJlMVCHWAE" viewBox="25 25 50 50" xmlnsXlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="inset: 0px 4px !important;"><circle cx="50" cy="50" r="20"></circle></svg></div><svg width="24" height="24" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" fill="none" xmlnsXlink="http://www.w3.org/1999/xlink" class="h9pVviaQm_vH3Kknq7ed kpm_reset aALDRsdsL0ZI13JpW4S6" style="position: absolute !important; width: 24px !important; height: 24px !important; top: -31px !important; left: 293px !important;"><path d="M1 17.0748V6.92522C1 6.19396 1.3991 5.52099 2.04077 5.17026L10.5408 0.5243C11.1385 0.197577 11.8615 0.197577 12.4592 0.5243L20.9592 5.17026C21.6009 5.52099 22 6.19396 22 6.92522V17.0748C22 17.806 21.6009 18.479 20.9592 18.8297L12.4592 23.4757C11.8615 23.8024 11.1385 23.8024 10.5408 23.4757L2.04077 18.8297C1.3991 18.479 1 17.806 1 17.0748Z" class="x42ZoZlm9VYGazCSUyBE"></path><circle cx="11.5" cy="9.5" r="3" fill="white" stroke="white"></circle><path d="M10 9H13V18L11.5 19L10 18V9Z" fill="white"></path><path d="M12.5 8.5C12.5 9.05228 12.0523 9.5 11.5 9.5C10.9477 9.5 10.5 9.05228 10.5 8.5C10.5 7.94772 10.9477 7.5 11.5 7.5C12.0523 7.5 12.5 7.94772 12.5 8.5Z" class="x42ZoZlm9VYGazCSUyBE"></path><rect x="10" y="16" width="1" height="1" class="x42ZoZlm9VYGazCSUyBE"></rect><rect x="10" y="14" width="1" height="1" class="x42ZoZlm9VYGazCSUyBE"></rect></svg></kpm-button></div>
+                    <div class="form-group">
+                      <label for="password-repeat" _msttexthash="2964455" _msthash="25">Повторить пароль</label>
+                      <input type="password" class="form-control" id="password-repeat" placeholder="Повторите пароль" _mstplaceholder="398619" _msthash="26">
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block btn-lg mb-2" _msttexthash="1860755" _msthash="27">Регистрация</button>
+                    <div class="text-center"><font _mstmutation="1" _msttexthash="5907512" _msthash="28"> У вас уже есть аккаунт? <a href="#" _mstmutation="1" _istranslated="1">Войти</a></font>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div><!-- /.col-md-6 -->
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <main class="main" role="main">
+      <div class="bg-white py-7">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div class="row">
+                <div class="col-md-4 ml-auto">
+                  <h2 _msttexthash="16927950" _msthash="29">Креативный и гибкий пользовательский интерфейс Bootstrap</h2>
+                </div>
+                <div class="col-md-6 mr-auto">
+                  <p class="lead text-dark" _msttexthash="337774437" _msthash="30"> Robust включает в себя различные демонстрационные страницы для создания собственного приложения, блога или целевой страницы. Весь код написан от руки, все наши компоненты оптимизированы для настольных компьютеров, планшетов и мобильных устройств. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-id-badge"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="1192035" _msthash="31">Бутстрап 4</h3>
+                  <p class="text-dark text-left" _msttexthash="142459746" _msthash="32"> Благодаря поддержке мобильных устройств, планшетов и настольных компьютеров не имеет значения, какое устройство вы используете. Robust отзывчив во всех браузерах. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-hand-scissors"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="8598889" _msthash="33">Подходит для мобильных устройств</h3>
+                  <p class="text-dark text-left" _msttexthash="52999219" _msthash="34"> Надежный отлично работает с: Chrome, Firefox, Safari, Opera и IE 10+. Мы прилагаем все усилия, чтобы поддержать их. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-comments"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="3392714" _msthash="35">Премиум-поддержка</h3>
+                  <p class="text-dark text-left" _msttexthash="115957907" _msthash="36"> Robust поддерживается специалистами, которые обеспечивают быструю и эффективную поддержку. Обычно ответ по электронной почте занимает &lt;24 часа. </p>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->
+        </div>
+      </div>
+  
+      <div class="bg-light py-6">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-10 mx-auto">
+                <h1 class="h2 text-center" _msttexthash="4285034" _msthash="37">У нас есть план для всех</h1>
+                <p class="lead text-center mb-4" _msttexthash="76070085" _msthash="38">Независимо от того, являетесь ли вы бизнесом или частным лицом, 14-дневная пробная версия не требует кредитной карты.</p>
+  
+                <div class="row justify-content-center mt-5 mb-4">
+                  <div class="col-auto">
+                    <nav class="nav btn-group">
+                      <a href="#monthly" class="btn btn-outline-primary active" data-toggle="tab" _msttexthash="3591159" _msthash="39">Ежемесячная оплата</a>
+                      <a href="#annual" class="btn btn-outline-primary" data-toggle="tab" _msttexthash="6245200" _msthash="40">Годовое выставление счетов</a>
+                    </nav>
+                  </div>
+                </div>
+  
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="monthly">
+                    <div class="row py-4 equal-height-cards">
+                      <div class="col-md-4">
+                        <div class="card text-center">
+                          <div class="card-body d-flex flex-column">
+                            <div class="mb-4">
+                              <h5 _msttexthash="1391767" _msthash="41">Свободный</h5>
+                              <span class="display-3" _msttexthash="8268" _msthash="42">$0</span>
+                            </div>
+                            <h6 _msttexthash="1192841" _msthash="43">Включает:</h6>
+                            <ul class="list-unstyled">
+                              <li class="mb-2" _msttexthash="2564263" _msthash="44"> 1 пользователей </li>
+                              <li class="mb-2" _msttexthash="1300442" _msthash="45"> 5 проектов </li>
+                              <li class="mb-2" _msttexthash="6148597" _msthash="46"> 5 ГБ дискового пространства </li>
+                            </ul>
+                            <div class="mt-auto">
+                              <a href="#" class="btn btn-lg btn-outline-secondary" _msttexthash="1860755" _msthash="47">Регистрация</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card text-center">
+                          <div class="card-body d-flex flex-column">
+                            <div class="mb-4">
+                              <h5 _msttexthash="1179373" _msthash="48">Стандарт</h5>
+                              <font _mstmutation="1" _msttexthash="528216" _msthash="49"><span class="display-3" _mstmutation="1" _istranslated="1">$ 19</span> <span _mstmutation="1" _istranslated="1">/мес</span></font>
+                            </div>
+                            <h6 _msttexthash="1192841" _msthash="50">Включает:</h6>
+                            <ul class="list-unstyled">
+                              <li class="mb-2" _msttexthash="2564627" _msthash="51"> 5 пользователей </li>
+                              <li class="mb-2" _msttexthash="1418144" _msthash="52"> 50 проектов </li>
+                              <li class="mb-2" _msttexthash="6476353" _msthash="53"> 50 ГБ дискового пространства </li>
+                              <li class="mb-2" _msttexthash="4642794" _msthash="54"> Политика безопасности </li>
+                              <li class="mb-2" _msttexthash="10119629" _msthash="55"> Еженедельное резервное копирование </li>
+                            </ul>
+                            <div class="mt-auto">
+                              <a href="#" class="btn btn-lg btn-success" _msttexthash="4278326" _msthash="56">Попробуйте бесплатно</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card text-center">
+                          <div class="card-body d-flex flex-column">
+                            <div class="mb-4">
+                              <h5 _msttexthash="479141" _msthash="57">Плюс</h5>
+                              <font _mstmutation="1" _msttexthash="528424" _msthash="58"><span class="display-3" _mstmutation="1" _istranslated="1">$ 39</span> <span _mstmutation="1" _istranslated="1">/мес</span></font>
+                            </div>
+                            <h6 _msttexthash="1192841" _msthash="59">Включает:</h6>
+                            <ul class="list-unstyled">
+                              <li class="mb-2" _msttexthash="13019188" _msthash="60"> Неограниченное количество пользователей </li>
+                              <li class="mb-2" _msttexthash="10138908" _msthash="61"> Неограниченное количество проектов </li>
+                              <li class="mb-2" _msttexthash="6804980" _msthash="62"> 250 ГБ дискового пространства </li>
+                              <li class="mb-2" _msttexthash="5020379" _msthash="63"> Приоритетная поддержка </li>
+                              <li class="mb-2" _msttexthash="4642794" _msthash="64"> Политика безопасности </li>
+                              <li class="mb-2" _msttexthash="9060870" _msthash="65"> Ежедневное резервное копирование </li>
+                              <li class="mb-2" _msttexthash="3339505" _msthash="66"> Пользовательский CSS </li>
+                            </ul>
+                            <div class="mt-auto">
+                              <a href="#" class="btn btn-lg btn-outline-secondary" _msttexthash="4278326" _msthash="67">Попробуйте бесплатно</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                    </div><!-- /.row -->
+                  </div><!-- /.tab-pane -->
+                  <div class="tab-pane fade" id="annual" _msthidden="27">
+                    <div class="row py-4 equal-height-cards" _msthidden="27">
+                      <div class="col-md-4" _msthidden="7">
+                        <div class="card text-center" _msthidden="7">
+                          <div class="card-body d-flex flex-column" _msthidden="7">
+                            <div class="mb-4" _msthidden="2">
+                              <h5 _msttexthash="43173" _msthidden="1" _msthash="68">Free</h5>
+                              <span class="display-3" _msttexthash="8268" _msthidden="1" _msthash="69">$0</span>
+                            </div>
+                            <h6 _msttexthash="125346" _msthidden="1" _msthash="70">Includes:</h6>
+                            <ul class="list-unstyled" _msthidden="3">
+                              <li class="mb-2" _msttexthash="77454" _msthidden="1" _msthash="71">
+                                1 users
+                              </li>
+                              <li class="mb-2" _msttexthash="135421" _msthidden="1" _msthash="72">
+                                5 projects
+                              </li>
+                              <li class="mb-2" _msttexthash="146796" _msthidden="1" _msthash="73">
+                                5 GB storage
+                              </li>
+                            </ul>
+                            <div class="mt-auto" _msthidden="1">
+                              <a href="#" class="btn btn-lg btn-outline-secondary" _msttexthash="79027" _msthidden="1" _msthash="74">Sign up</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                      <div class="col-md-4" _msthidden="9">
+                        <div class="card text-center" _msthidden="9">
+                          <div class="card-body d-flex flex-column" _msthidden="9">
+                            <div class="mb-4" _msthidden="2">
+                              <h5 _msttexthash="112164" _msthidden="1" _msthash="75">Standard</h5>
+                              <font _mstmutation="1" _msttexthash="64935" _msthidden="1" _msthash="76"><span class="display-3" _mstmutation="1">$199</span>
+                              <span class="text-small4" _mstmutation="1">/mo</span></font>
+                            </div>
+                            <h6 _msttexthash="125346" _msthidden="1" _msthash="77">Includes:</h6>
+                            <ul class="list-unstyled" _msthidden="5">
+                              <li class="mb-2" _msttexthash="77818" _msthidden="1" _msthash="78">
+                                5 users
+                              </li>
+                              <li class="mb-2" _msttexthash="151775" _msthidden="1" _msthash="79">
+                                50 projects
+                              </li>
+                              <li class="mb-2" _msttexthash="163410" _msthidden="1" _msthash="80">
+                                50 GB storage
+                              </li>
+                              <li class="mb-2" _msttexthash="268437" _msthidden="1" _msthash="81">
+                                Security policy
+                              </li>
+                              <li class="mb-2" _msttexthash="234715" _msthidden="1" _msthash="82">
+                                Weekly backups
+                              </li>
+                            </ul>
+                            <div class="mt-auto" _msthidden="1">
+                              <a href="#" class="btn btn-lg btn-success" _msttexthash="208871" _msthidden="1" _msthash="83">Try it for free</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                      <div class="col-md-4" _msthidden="11">
+                        <div class="card text-center" _msthidden="11">
+                          <div class="card-body d-flex flex-column" _msthidden="11">
+                            <div class="mb-4" _msthidden="2">
+                              <h5 _msttexthash="47151" _msthidden="1" _msthash="84">Plus</h5>
+                              <font _mstmutation="1" _msttexthash="65143" _msthidden="1" _msthash="85"><span class="display-3" _mstmutation="1">$399</span>
+                              <span _mstmutation="1">/mo</span></font>
+                            </div>
+                            <h6 _msttexthash="125346" _msthidden="1" _msthash="86">Includes:</h6>
+                            <ul class="list-unstyled" _msthidden="7">
+                              <li class="mb-2" _msttexthash="266357" _msthidden="1" _msthash="87">
+                                Unlimited users
+                              </li>
+                              <li class="mb-2" _msttexthash="356408" _msthidden="1" _msthash="88">
+                                Unlimited projects
+                              </li>
+                              <li class="mb-2" _msttexthash="180895" _msthidden="1" _msthash="89">
+                                250 GB storage
+                              </li>
+                              <li class="mb-2" _msttexthash="306605" _msthidden="1" _msthash="90">
+                                Priority support
+                              </li>
+                              <li class="mb-2" _msttexthash="268437" _msthidden="1" _msthash="91">
+                                Security policy
+                              </li>
+                              <li class="mb-2" _msttexthash="206466" _msthidden="1" _msthash="92">
+                                Daily backups
+                              </li>
+                              <li class="mb-2" _msttexthash="122291" _msthidden="1" _msthash="93">
+                                Custom CSS
+                              </li>
+                            </ul>
+                            <div class="mt-auto" _msthidden="1">
+                              <a href="#" class="btn btn-lg btn-outline-secondary" _msttexthash="208871" _msthidden="1" _msthash="94">Try it for free</a>
+                            </div>
+                          </div>
+                        </div><!-- /.card -->
+                      </div>
+                    </div><!-- /.row -->
+                  </div><!-- /.tab-pane -->
+                </div>
+              </div>
+            </div><!-- /.row -->
+          </div>
+      </div>
+  
+      <div class="py-6 bg-white">
+        <div class="container">
+  
+          <div class="row mb-6">
+            <div class="col-md-3 ml-auto">
+              <h2 _msttexthash="8383934" _msthash="95">Функции, включенные в каждый план</h2>
+            </div>
+            <div class="col-md-5 mr-auto">
+              <p class="lead text-dark" _msttexthash="167345906" _msthash="96"> Robust — это тема, созданная с помощью Bootstrap 4, популярного фреймворка пользовательского интерфейса. Тема адаптивна и может использоваться для любого типа веб-приложений. </p>
+            </div>
+          </div>
+  
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-id-badge"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="1619930" _msthash="97">Отзывчивый</h3>
+                  <p class="text-dark text-left" _msttexthash="142459746" _msthash="98"> Благодаря поддержке мобильных устройств, планшетов и настольных компьютеров не имеет значения, какое устройство вы используете. Robust отзывчив во всех браузерах. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-warning">
+                  <i class="far fa-hand-scissors"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="2373033" _msthash="99">Настраиваемые</h3>
+                  <p class="text-dark text-left" _msttexthash="62083281" _msthash="100"> Вам не нужно быть экспертом, чтобы настроить Robust. Наш код очень читабельный и хорошо документированный. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-danger">
+                  <i class="far fa-comments"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="3261583" _msthash="101">Быстрая поддержка</h3>
+                  <p class="text-dark text-left" _msttexthash="115957907" _msthash="102"> Robust поддерживается специалистами, которые обеспечивают быструю и эффективную поддержку. Обычно ответ по электронной почте занимает &lt;24 часа. </p>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->
+  
+          <div class="row mt-5">
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-success">
+                  <i class="far fa-clone"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="3597503" _msthash="103">Кроссбраузерность</h3>
+                  <p class="text-dark text-left" _msttexthash="52999219" _msthash="104"> Надежный отлично работает с: Chrome, Firefox, Safari, Opera и IE 10+. Мы прилагаем все усилия, чтобы поддержать их. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3 bg-purple">
+                  <i class="far fa-gem"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="1394289" _msthash="105">Чистый код</h3>
+                  <p class="text-dark text-left" _msttexthash="67375373" _msthash="106"> Мы строго следовали рекомендациям Bootstrap, чтобы максимально упростить интеграцию. Весь код написан от руки. </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="media">
+                <div class="icon mr-3">
+                  <i class="far fa-arrow-alt-circle-down"></i>
+                </div>
+                <div class="media-body">
+                  <h3 class="h4" _msttexthash="4646304" _msthash="107">Бесплатные обновления</h3>
+                  <p class="text-dark text-left" _msttexthash="61101495" _msthash="108"> Время от времени вы будете получать обновления, содержащие новые компоненты, улучшения и исправления. </p>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.row -->
+        </div>
+      </div>
+  
+      <div class="py-6 bg-light">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h3 _msttexthash="3267329" _msthash="109">Что говорят другие</h3>
+          </div>
+        </div>
+        <div data-flickity="{ &quot;prevNextButtons&quot;: false, &quot;wrapAround&quot;: true}" class="flickity-enabled is-draggable" tabindex="0">
+          
+          
+          
+        <div class="flickity-viewport" style="height: 166.375px; touch-action: pan-y;"><div class="flickity-slider" style="left: 0px; transform: translateX(0%);"><div class="carousel-cell is-selected" aria-selected="true" style="position: absolute; left: 0%;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="media">
+                    <img src="img/avatars/1.jpg" alt="Аватар" class="img-fluid rounded-circle mr-4" style="max-width:128px;" _mstalt="76271" _msthash="110">
+                    <div class="media-body">
+                      <blockquote class="h3 font-weight-normal" _msttexthash="103103481" _msthash="111"> «Я могу только рекомендовать как эту тему, так и компетентного разработчика, стоящего за ней, другим людям. Быстрая и полезная поддержка! " </blockquote>
+                      <span _msttexthash="1175642" _msthash="112">Джейн Роу</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><div class="carousel-cell" aria-selected="false" style="position: absolute; left: 100%;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="media">
+                    <img src="img/avatars/2.jpg" alt="Аватар" class="img-fluid rounded-circle mr-4" style="max-width:128px;" _mstalt="76271" _msthash="113">
+                    <div class="media-body">
+                      <blockquote class="h3 font-weight-normal" _msttexthash="103103481" _msthash="114"> «Я могу только рекомендовать как эту тему, так и компетентного разработчика, стоящего за ней, другим людям. Быстрая и полезная поддержка! " </blockquote>
+                      <span _msttexthash="980031" _msthash="115">Джон Роу</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><div class="carousel-cell" aria-selected="false" style="position: absolute; left: 200%;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-10 mx-auto">
+                  <div class="media">
+                    <img src="img/avatars/3.jpg" alt="Аватар" class="img-fluid rounded-circle mr-4" style="max-width:128px;" _mstalt="76271" _msthash="116">
+                    <div class="media-body">
+                      <blockquote class="h3 font-weight-normal" _msttexthash="103103481" _msthash="117"> «Я могу только рекомендовать как эту тему, так и компетентного разработчика, стоящего за ней, другим людям. Быстрая и полезная поддержка! " </blockquote>
+                      <span _msttexthash="1175642" _msthash="118">Джейн Роу</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div></div></div><ol class="flickity-page-dots"><li class="dot is-selected" aria-label="Точка страницы 1" _mstaria-label="102687" _msthash="119" aria-current="step"></li><li class="dot" aria-label="Точка страницы 2" _mstaria-label="102869" _msthash="120"></li><li class="dot" aria-label="Точка страницы 3" _mstaria-label="103051" _msthash="121"></li></ol></div>
+      </div>
+  
+      <div class="py-6 bg-danger text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+              <div class="row">
+                <div class="col-md-4 ml-auto">
+                  <h2 _msttexthash="2655796" _msthash="122">С кем мы работаем<br _istranslated="1"></h2>
+                </div>
+                <div class="col-md-6 mr-auto">
+                  <p class="lead text-light" _msttexthash="13639249" _msthash="123">
+                    Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan.
+                  </p>
+                </div>
+              </div>
+              <div class="row align-items-center my-md-4 text-center">
+                <div class="col">
+                  <i class="fab fa-4x fa-microsoft"></i>
+                </div>
+                <div class="col">
+                  <i class="fab fa-4x fa-github"></i>
+                </div>
+                <div class="col">
+                  <i class="fab fa-4x fa-ebay"></i>
+                </div>
+                <div class="col">
+                  <i class="fab fa-4x fa-apple"></i>
+                </div>
+                <div class="col">
+                  <i class="fab fa-4x fa-amazon"></i>
+                </div>
+                <div class="col">
+                  <i class="fab fa-4x fa-stripe"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  
+    <footer role="contentinfo" class="py-6 lh-1 bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h3 class="h4 mb-4" _msttexthash="990288" _msthash="124">Крепкий.</h3>
+          </div>
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <h4 class="h6" _msttexthash="629577" _msthash="125">Адрес</h4>
+                <address>
+                              <ul class="list-unstyled">
+                                  <li>
+                      City Hall<br>
+                                      212  Street<br>
+                                      Lawoma<br>
+                                      735<br>
+                                  </li>
+                              </ul>
+                          </address>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4 class="h6" _msttexthash="3274011" _msthash="126">Популярные услуги</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" _msttexthash="2663687" _msthash="127">Платежный центр</a></li>
+                  <li><a href="#" _msttexthash="3260296" _msthash="128">Каталог контактов</a></li>
+                  <li><a href="#" _msttexthash="634777" _msthash="129">Формы</a></li>
+                  <li><a href="#" _msttexthash="3927560" _msthash="130">Новости и обновления</a></li>
+                  <li><a href="#" _msttexthash="5420792" _msthash="131">Часто задаваемые вопросы</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4 class="h6" _msttexthash="4358276" _msthash="132">Информация о веб-сайте</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" _msttexthash="6329505" _msthash="133">Учебное пособие по веб-сайту</a></li>
+                  <li><a href="#" _msttexthash="1865838" _msthash="134">Доступность</a></li>
+                  <li><a href="#" _msttexthash="629525" _msthash="135">Отказ</a></li>
+                  <li><a href="#" _msttexthash="7143656" _msthash="136">Политика конфиденциальности</a></li>
+                  <li><a href="#" _msttexthash="5420792" _msthash="137">Часто задаваемые вопросы</a></li>
+                  <li><a href="#" _msttexthash="1388855" _msthash="138">Вебмастер</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <h4 class="h6" _msttexthash="1182454" _msthash="139">Компания</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" _msttexthash="1849640" _msthash="140">Наша команда</a></li>
+                  <li><a href="#" _msttexthash="631592" _msthash="141">Около</a></li>
+                  <li><a href="#" _msttexthash="983437" _msthash="142">Контакт</a></li>
+                  <li><a href="https://themes.getbootstrap.com/product/robust-ui-kit-dashboard-landing/" target="_blank" _msttexthash="1184456" _msthash="143">Покупать</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-sm">
+            <p class="mb-0" _msttexthash="18381194" _msthash="144">© 2021 - <a href="index.html" _istranslated="1">Надежный набор пользовательского интерфейса</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+    <script src="js/app.js"></script>
+  
+  
+  </body>
+{% endblock %} 
